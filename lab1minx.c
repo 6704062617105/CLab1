@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
 	int num1,num2;
-	printf("num1 = ");
-	scanf("%d",&num1);
-	printf("num2 = ");
-	scanf("%d",&num1);
+	
+	scanf("%d\n%d",&num1,&num2);
+	
 	
 	if(num1 > num2) 
 		printf("num1 id greater than num2 = %d",num1-num2);
